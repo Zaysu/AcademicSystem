@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+.header{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.adiciona-btn{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.add-note{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.no-notes{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerText{
+    font-size: 40px;
+    color: white;
+}
+.modal{
+    height: 110%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.modal-invisivel{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.form{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    height: 80%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.form-header{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-header-text{
+    font-size: 25px;
+}
+.close-btn{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(37, 131, 54)
+}
+label{
+    font-size: 20px;
+}
+.form-group{
+    padding: 20px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+}
+
+.btn{
+    padding: 20px;
+    background-color: rgb(199, 92, 101);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.note{
+    background-color: white;
+    width: 480px;
+    height: 230px;
+    margin: 30px;
+    padding: 23px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.note:hover{
+    transform: scale(1.1);
+}
+.notes-list{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.note-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(211, 30, 45);
+    font-family: "Times New Roman", Times, serif;
+}
+.note-content{
+    font-size: 16px;
+    color: rgb(199, 93, 102);
+    left: 16px;
+}
+.close{
+    font-size: 20px;
+    color: rgb(206, 70, 81);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p{
+    font-size: 19px;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Estilo minimalista para o botão de exclusão */
+.delete-button {
+    background-color: transparent;
+    color: #f44336; /* Cor vermelha para ícone de exclusão */
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .delete-button:hover {
+    color: #d32f2f; /* Cor vermelha mais escura ao passar o mouse */
+  }
+  
